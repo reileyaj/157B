@@ -61,7 +61,7 @@ main {
 main section {
     flex: 1;
     background-color: #ba78a9b0;
-    margin:5em .25em; margin-bottom: 0;
+    margin:3em .25em; margin-bottom: 0;
     padding: 1em;
 }
 
@@ -88,17 +88,6 @@ nav ol, nav ul {
     margin-left: 0;
     padding-left: 0;
 }
-
-/* .hover {
-    position: absolute;
-    left: -9999px;
-}
-.hover ol li a, .hover ul li a {
-    background-color: #92578d8f;
-}
-section:hover .hover {
-    left: auto;
-} */
 
 section li {
     font-style: normal;
