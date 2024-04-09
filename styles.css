@@ -40,24 +40,17 @@ header {
     margin: 0 auto 2em auto;
 }
 
-/* #banner {
+#banner {
     position: relative;
     display: flex;
     width: 1100px;
     height: 250px;
     margin: auto;
-    background-color: rgb(235, 235, 235);
-    color: #333;
-    overflow: hidden;
-    display: grid;
-	place-items: center;
 }
 
 #banner.switch {
-    background-color: #333;
-    color: rgb(235, 235, 235);
     transition: all 2s;
-} */
+}
 
 main {
     display: flex;
@@ -68,7 +61,7 @@ main {
 main section {
     flex: 1;
     background-color: #ba78a9b0;
-    margin: 25em .25em; margin-bottom: 0;
+    margin: 11em .25em; margin-bottom: 0;
     padding: 1em;
 }
 
