@@ -1,0 +1,59 @@
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+section p {
+    color: white;
+}
+
+#line1 {
+    position: absolute;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 48px;
+    top: 20%; left: 5%;
+}
+
+.wildflower {
+    font-style: italic;
+    font-weight: 100;
+}
+
+#line2 {
+    position: absolute;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 48px;
+    top: 40%; left: 7.5%;
+}
+
+.willpower {
+    font-style:normal;
+    font-weight: 300;
+}
+
+#line3 {
+    position: absolute;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 48px;
+    top: 60%; left: 10%;
+}
+
+.burn1 {opacity: 75%;} .burn2 {opacity: 50%;} .burn3 {opacity: 25%};

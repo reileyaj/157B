@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockbuster Video!</title>
+    
+    <!-- Normalize CSS for browser compatability -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+
+    <!-- My Styles -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- My Script -->
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <video id="vid1" class="visible" muted autoplay loop playsinline>
+        <source src="media/daisy.webm" type="video/webm">
+        <source src="media/daisy.mp4" type="video/webm">
+        <p>Your browser doesn't support HTML5 video. 
+            Here is a <a href="media/IMG_3041.mp4">link to the video</a> instead.</p>
+    </video>
+    <video id="vid2" class="hidden" muted autoplay loop playsinline>
+        <!-- <source src="media/IMG_3043.webm" type="video/webm">
+        <source src="media/IMG_3043.mp4" type="video/webm"> -->
+        <p>Your browser doesn't support HTML5 video. 
+            Here is a <a href="media/IMG_3043.mp4">link to the video</a> instead.</p>
+    </video>
+    <video id="vid3" class="hidden" muted autoplay loop playsinline>
+        <!-- <source src="media/IMG_3043.webm" type="video/webm">
+        <source src="media/IMG_3043.mp4" type="video/webm"> -->
+        <p>Your browser doesn't support HTML5 video. 
+            Here is a <a href="media/IMG_3043.mp4">link to the video</a> instead.</p>
+    </video>
+    
+    <!--Lyrics-->
+    <section>
+        <p id="line1" class="visible">I'll be like a <span class="wildflower">wildflower</span></p>
+        <p id="line2" class="visible">I'll live on sheer <span class="willpower">willpower</span></p>
+        <p id="line3" class="visible">I'll do my best never to turn into something that <span class="burn1">burns,</span> <span class="burn2">burns,</span> <span class="burn3">burns</span></p>        
+    </section>
+
+</body>
+</html>
