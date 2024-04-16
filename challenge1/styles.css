@@ -83,7 +83,6 @@ section p {
 #line1 {
     position: absolute;
     font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-size: 48px;
     top: 20%; left: 5%;
@@ -97,7 +96,6 @@ section p {
 #line2 {
     position: absolute;
     font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: italic;
     font-size: 48px;
@@ -112,10 +110,9 @@ section p {
 #line3 {
     position: absolute;
     font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-size: 48px;
     top: 70%; left: 10%;
 }
 
-.burn1 {opacity: 75%;} .burn2 {opacity: 50%;} .burn3 {opacity: 25%};
+.burn1 {opacity: 75%;} .burn2 {opacity: 50%;} .burn3 {opacity: 25%;}
