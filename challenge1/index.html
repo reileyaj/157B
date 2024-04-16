@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
     <!-- My Styles -->
     <link href="styles.css" rel="stylesheet">
     <!-- My Script -->
@@ -20,13 +22,19 @@
 
 </head>
 <body>
-    <video id="vid2" class="visible" muted autoplay loop playsinline>
+    <!--DIVS FOR HOVERING LATER-->
+    <div id="hover1"></div>
+    <div id="hover2"></div>
+    <div id="hover3"></div>
+
+    <!--Videos-->
+    <video id="vid1" class="visible" muted autoplay loop playsinline>
         <source src="media/geranium2.webm" type="video/webm">
         <source src="media/geranium2.mp4" type="video/webm">
         <p>Your browser doesn't support HTML5 video. 
             Here is a <a href="media/geranium2.mp4">link to the video</a> instead.</p>
     </video> 
-   <video id="vid1" class="hidden" muted autoplay loop playsinline>
+   <video id="vid2" class="hidden" muted autoplay loop playsinline>
         <source src="media/daisy.webm" type="video/webm">
         <source src="media/daisy.mp4" type="video/webm">
         <p>Your browser doesn't support HTML5 video. 
@@ -42,10 +50,12 @@
     
     <!--Lyrics-->
     <section>
-        <p id="line1" class="visible">I'll be like a <span class="wildflower">wildflower</span></p>
-        <p id="line2" class="visible">I'll live on sheer <span class="willpower">willpower</span></p>
-        <p id="line3" class="visible">I'll do my best never to turn into something that <span class="burn1">burns,</span> <span class="burn2">burns,</span> <span class="burn3">burns</span></p>        
+        <p id="line1" class="visible">I'll be like a <span class="wildflower">wildflower</span>,</p>
+        <p id="line2" class="hidden">I'll live on sheer <span class="willpower">willpower</span>,</p>
+        <p id="line3" class="hidden">I'll do my best never to turn into something that <span class="burn1">burns,</span> <span class="burn2">burns,</span> <span class="burn3">burns</span></p>        
     </section>
-
+    
+    <!--Fullscreen-->
+    <i class="fas fa-expand"></i>
 </body>
 </html>

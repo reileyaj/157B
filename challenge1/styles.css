@@ -1,9 +1,59 @@
 .visible {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     display: block;
 }
 
 .hidden {
-    display: none;
+    animation: fadeOutAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* display: none; */
+}
+
+@keyframes fadeInAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeOutAnimation {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#hovers{
+    display: flex;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#hover1 {
+    position: absolute;
+    min-height: 100%;
+    min-width: 33.333%;
+    top: 0;
+    left: 0;
+    /* background-color:aqua; */
+}
+
+#hover2 {
+    position: absolute;
+    min-height: 100%;
+    min-width: 33.333%;
+    top: 0;
+    left: 33.333%;
+    /* background-color:blue; */
+}
+
+#hover3 {
+    position: absolute;
+    min-height: 100%;
+    min-width: 33.333%;
+    top: 0;
+    left: 66.666%;
+    /* background-color:palevioletred; */
 }
 
 video {
@@ -12,6 +62,18 @@ video {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index: -1;
+}
+
+.fa-expand{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.fa-expand:hover {
+    cursor: pointer;
 }
 
 section p {
@@ -39,7 +101,7 @@ section p {
     font-weight: 200;
     font-style: italic;
     font-size: 48px;
-    top: 40%; left: 7.5%;
+    top: 50%; left: 7.5%;
 }
 
 .willpower {
@@ -53,7 +115,7 @@ section p {
     font-optical-sizing: auto;
     font-weight: 200;
     font-size: 48px;
-    top: 60%; left: 10%;
+    top: 70%; left: 10%;
 }
 
 .burn1 {opacity: 75%;} .burn2 {opacity: 50%;} .burn3 {opacity: 25%};
