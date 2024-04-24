@@ -1,0 +1,46 @@
+.selected {background-color: #DA6868;}
+.unselected {background-color: #ECB2B2;}
+
+body {background-color: #F7EEE2;}
+h1, p {
+    color: #4A0C68;
+    font-family: "Alata", sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 60pt;
+    margin: .5em;
+}
+header p {
+    font-size: 20pt;
+    margin: 0;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    width: 100%;
+}
+
+#days {
+    position: absolute;
+    left: 20%;
+    margin-top: 2em;
+}
+#days p {
+    font-size: 25pt;
+    padding: .2em;
+    margin: 1em;
+    border-radius: 1rem 1rem;
+}
+
+#outfit {
+    position: absolute;
+    right: 25%;
+    margin-top: 2em;
+}
+#outfit p {
+    font-size: 105pt;
+    margin: 0;
+}
+

@@ -1,0 +1,44 @@
+[{
+      "day": "Monday",
+      "hatcolor": "none",
+      "shirtcolor": "black",
+      "pantcolor": "black",
+      "shoecolor": "black"
+    }, {
+      "day": "Tuesday",
+      "hatcolor": "none",
+      "shirtcolor": "green",
+      "pantcolor": "blue",
+      "shoecolor": "black"
+    }, {
+      "day": "Wednesday",
+      "hatcolor": "none",
+      "shirtcolor": "red",
+      "pantcolor": "blue",
+      "shoecolor": "black"
+    }, {
+      "day": "Thursday",
+      "hatcolor": "none",
+      "shirtcolor": "black",
+      "pantcolor": "black",
+      "shoecolor": "black"
+    }, {
+      "day": "Friday",
+      "hatcolor": "none",
+      "shirtcolor": "red",
+      "pantcolor": "black",
+      "shoecolor": "black"
+    }, {
+      "day": "Saturday",
+      "hatcolor": "none",
+      "shirtcolor": "white",
+      "pantcolor": "blue",
+      "shoecolor": "black"
+    }, {
+      "day": "Sunday",
+      "hatcolor": "brown",
+      "shirtcolor": "white",
+      "pantcolor": "black",
+      "shoecolor": "black"
+    }]
+  
