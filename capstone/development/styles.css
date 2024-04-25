@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+    margin-top: 3em; margin-bottom: 3em;
+    max-width: 40rem;
+    background-color: rgb(250, 249, 246);
+    color:rgb(80, 22, 107);
+}
+
+h1, h2 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+}
