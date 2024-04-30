@@ -1,3 +1,11 @@
+.clear {color:#6868683f}
+.black {color: rgb(37, 36, 45)}
+.green {color: rgb(60, 83, 60)}
+.blue {color:rgb(61, 61, 120)}
+.red {color:rgb(154, 41, 41)}
+.brown {color:rgb(108, 48, 18)}
+.pink{color:rgb(186, 88, 153)}
+
 .selected {background-color: #DA6868;}
 .unselected {background-color: #ECB2B2;}
 
@@ -26,6 +34,9 @@ footer {
     position: absolute;
     left: 20%;
     margin-top: 2em;
+}
+#days:hover {
+    cursor: pointer;
 }
 #days p {
     font-size: 25pt;

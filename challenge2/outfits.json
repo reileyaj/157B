@@ -1,44 +1,50 @@
-[{
-      "day": "Monday",
-      "hatcolor": "none",
+{
+  "null" : {
+    "hatcolor": "clear",
+    "shirtcolor": "clear",
+    "pantcolor": "clear",
+    "shoecolor": "clear"
+},
+  "monday" : {
+      "hatcolor": "clear",
       "shirtcolor": "black",
       "pantcolor": "black",
       "shoecolor": "black"
-    }, {
-      "day": "Tuesday",
-      "hatcolor": "none",
+  },
+  "tuesday" : {
+      "hatcolor": "clear",
       "shirtcolor": "green",
       "pantcolor": "blue",
       "shoecolor": "black"
-    }, {
-      "day": "Wednesday",
-      "hatcolor": "none",
+  },
+  "wednesday" : {
+      "hatcolor": "clear",
       "shirtcolor": "red",
       "pantcolor": "blue",
       "shoecolor": "black"
-    }, {
-      "day": "Thursday",
-      "hatcolor": "none",
+  },
+  "thursday" : {
+      "hatcolor": "clear",
       "shirtcolor": "black",
       "pantcolor": "black",
       "shoecolor": "black"
-    }, {
-      "day": "Friday",
-      "hatcolor": "none",
+  },
+  "friday" : {
+      "hatcolor": "clear",
       "shirtcolor": "red",
       "pantcolor": "black",
       "shoecolor": "black"
-    }, {
-      "day": "Saturday",
-      "hatcolor": "none",
-      "shirtcolor": "white",
+  },
+  "saturday" : {
+      "hatcolor": "clear",
+      "shirtcolor": "pink",
       "pantcolor": "blue",
       "shoecolor": "black"
-    }, {
-      "day": "Sunday",
+  },
+  "sunday" : {
       "hatcolor": "brown",
-      "shirtcolor": "white",
+      "shirtcolor": "pink",
       "pantcolor": "black",
       "shoecolor": "black"
-    }]
-  
+  }
+}
