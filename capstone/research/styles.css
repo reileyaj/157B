@@ -1,0 +1,36 @@
+body {
+    margin: auto;
+    margin-top: 3em; margin-bottom: 3em;
+    max-width: 40rem;
+    background-color: rgb(250, 249, 246);
+    color:rgb(80, 22, 107);
+}
+
+h1, h2, h3 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+} 
+
+h3{ margin: 0 }
+
+p, li {
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+}
+
+img {
+    max-width: 40rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flexitem {
+    flex: 1 1 0px;
+    width: 0;
+    margin: 0 .5em;
+}
+li {
+    margin: .5em 0;
+}
