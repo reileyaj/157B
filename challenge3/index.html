@@ -20,18 +20,31 @@
       }
     </script>
 
+    <!-- ANIME.JS -->
+    <script src="/node_modules/animejs/lib/anime.min.js"></script>
+
   </head>
 
   <body id="background">
     <script type="module" src="main.js"></script>
+    <h1>Library Liberty</h1>
+    <p>Click and drag on the left side of the screen to spin the 3D model!</p>
 
     <div id="stars">
     </div> 
     <div id="frogs">
-        <h1>Library Liberty</h1>
-        <p>Click and drag on the left side of the screen to spin the 3D model!</p>
+      <!-- <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div> -->
+      <div class="box" id="box1"></div>
+      <svg width="100%" height="100%">
+        <polygon id='poly1' class="cls-1" points="135.05 176.7 179.96 256.6 269.83 274.63 207.72 342.04 218.35 433.08 135.05 394.84 51.75 433.08 62.37 342.04 .26 274.63 90.13 256.6 135.05 176.7"/>
+        <polygon id='poly2' class="cls-1" points="146.5 164.97 124.17 164.97 114.5 .14 154.5 .14 146.5 164.97"/>
+        <polygon id='poly3' class="cls-1" points="170.5 203.27 158.98 186.04 193.32 24.53 231.89 35.13 170.5 203.27"/>
+        <polygon id='poly4' class="cls-1" points="99.69 196.61 111.21 179.38 76.87 17.87 38.3 28.47 99.69 196.61"/>
+    </svg>
     </div>
 
-    <footer>I used the <a href="https://threejs.org/">three.js</a> library. I also used <a href="https://codesandbox.io/s/threejs-anderson-mancini-boilerplate-n323o9?file=/index.html">this</a> boilerplate and it saved my life. <br> I used the <a>insert library here</a> library as well. </footer>
+    <footer>I used the <a href="https://threejs.org/">three.js</a> and <a href="https://animejs.com/">anime.js</a> libraries.</footer>
   </body>
 </html>

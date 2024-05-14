@@ -1,4 +1,4 @@
-//LITERALLY ALL OF THIS IS THREE.JS I HATE THREE.JS I HATE IT I HATE IT I HATE IT I HATE IT
+//LITERALLY ALL OF THIS IS THREE.JS AND IT MAKES ME SAD AND FRUSTRATED.
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
@@ -29,14 +29,14 @@ const renderer = new THREE.WebGLRenderer({
 }); // turn on antialias
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2)); //set pixel ratio
 
-renderer.setSize(window.innerWidth*.5, window.innerHeight); // set size of render
+renderer.setSize(window.innerWidth*.5, window.innerHeight*.8); // set size of render
 renderer.outputEncoding = THREE.sRGBEncoding; // set color encoding
 renderer.toneMapping = THREE.LinearToneMapping; // set the toneMapping
 
 container.appendChild( renderer.domElement); // append the renderer to container div element
 
 // make camera
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth*.5 / window.innerHeight, 1, 100);
+const camera = new THREE.PerspectiveCamera(45, window.innerWidth*.5 / window.innerHeight*1.3, 1, 100);
 scene.add(camera);
 camera.position.set(0, 3, 9);
 
@@ -69,7 +69,7 @@ rendeLoop(); //start rendering
 //make it full screen & update when screen size is changed
 window.addEventListener('resize', () => {
   const width = window.innerWidth*.5;
-  const height = window.innerHeight;
+  const height = window.innerHeight*.8;
   camera.aspect = width / height;
   camera.updateProjectionMatrix();
 
@@ -78,4 +78,12 @@ window.addEventListener('resize', () => {
 });
 
 //ANIME.JS 
-
+anime({
+  targets: '.cls-1',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 1500,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+  loop: true
+});

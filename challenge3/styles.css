@@ -16,6 +16,25 @@ body{
     height: 100%;
     z-index: -1;
 }
+path {
+    stroke: rgba(255, 213, 0, 0);
+    stroke-width: 1px;
+    fill:none;
+}
+svg {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    fill: none;
+    stroke:rgb(206, 164, 246);
+}
+/* .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 208, 0);
+    margin: 5px;
+} */
 h1, p{
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -34,13 +53,4 @@ footer {
 a {
     color:rgb(206, 164, 246)
 }
-svg {
-    position: absolute;
-    top: 35%;
-    right: 25%;
-}
-.square.orange, .box.orange {
-    background: orange;
-    position: relative;
-    top: 8px;
-  }
+
