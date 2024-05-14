@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Library Liberty</title>
+    <meta name="description" content="Three.js template using Glitch by Anderson Mancini" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, threejs, wix" />
+    <meta name="author" content="Anderson Mancini" />
+
+    <link rel="stylesheet" href="styles.css" />
+ 
+    <!-- THREE.JS -->
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.145.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.145.0/examples/jsm/"
+        }
+      }
+    </script>
+
+  </head>
+
+  <body id="background">
+    <script type="module" src="main.js"></script>
+
+    <div id="stars">
+    </div> 
+    <div id="frogs">
+        <h1>Library Liberty</h1>
+        <p>Click and drag on the left side of the screen to spin the 3D model!</p>
+    </div>
+
+    <footer>I used the <a href="https://threejs.org/">three.js</a> library. I also used <a href="https://codesandbox.io/s/threejs-anderson-mancini-boilerplate-n323o9?file=/index.html">this</a> boilerplate and it saved my life. <br> I used the <a>insert library here</a> library as well. </footer>
+  </body>
+</html>
