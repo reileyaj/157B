@@ -1,0 +1,20 @@
+h1, h2 {
+    text-align: center;
+}
+canvas {
+    width: 75vw !important;
+    height: 100vh !important;
+    position: fixed;
+
+}
+
+.annotation {
+    width: 20vw;
+    position: absolute;
+    right: 0;
+}
+
+section {
+    margin-top: 20em;
+    margin-bottom: 20em;
+}
