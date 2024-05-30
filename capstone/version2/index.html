@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+
+    <!-- Normalize CSS for browser compatability -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- My Styles -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- ThreeJS my worst opp -->
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.145.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.145.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script type="module" src="script.js"></script>
+
+</head>
+<body>
+    <!-- <h1>How safe are our roads?</h1>
+    <h2>...and how safe could they be?</h2> -->
+
+    <section id="canvas"></section>
+
+    <section class="annotation">
+
+      <h1>Today, USA</h1>
+      <p class="h1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, facere. Laborum eveniet est consequuntur debitis expedita? Ipsam molestias corrupti qui maxime? Amet aliquam quisquam temporibus. Adipisci et iusto error minus!</p>
+
+      <section class="sec right">
+        <h3>Large Cars</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aspernatur natus deleniti esse eius provident facilis error repudiandae, optio soluta!</p>
+      </section>
+      <section class="sec left">
+        <h3>Space Dedicated to Cars</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aspernatur natus deleniti esse eius provident facilis error repudiandae, optio soluta!</p>
+        </section>
+        <section class="sec right">
+          <h3>Smaller Cars</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aspernatur natus deleniti esse eius provident facilis error repudiandae, optio soluta!</p>
+          </section>
+          <section class="sec left">
+            <h3>Section 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aspernatur natus deleniti esse eius provident facilis error repudiandae, optio soluta!</p>
+            </section>
+    </section>
+
+</body>
+</html>

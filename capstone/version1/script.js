@@ -45,12 +45,15 @@ loader.setDRACOLoader(dracoLoader);
   //orbit controls
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.target.set(0, 2.2, 0);
+  controls.enableZoom = false;
   // controls.autoRotate = true;
   controls.enableDamping = true;
 
   //load glb file
+  let obj = null;
   loader.load('assets/TodayUSA2.glb', function (gltf) {
-    scene.add(gltf.scene);
+    obj = gltf.scene;
+    scene.add(obj);
   });
 
 
