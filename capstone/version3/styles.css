@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(151, 178, 217);
+    min-height: calc(100vh + 3000px);
+}
+
+canvas {
+    width: 100vw !important;
+    height: 100vh !important;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: -1;
+
+}
+
+h1, .h1 {
+    text-align: center;
+}
+
+.annotation {
+    position: relative;
+    padding: 32px;
+    z-index: 1;
+    color: aliceblue;
+}
+
+.sec {
+    max-width: 30vw;
+    padding-top: 390px;
+    padding-bottom: 400px;
+    right: 0;
+}
+
+.right {
+    margin-left: 70%;
+}
+
+button {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    padding: 12px;
+    z-index: 2;
+}
