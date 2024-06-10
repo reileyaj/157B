@@ -63,9 +63,16 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 // on the first day, god said... sets light.
-const light = new THREE.PointLight(0xffff00, 2, 100);
-light.position.set(-3, 0, 8);
+const light = new THREE.PointLight(0xffffff, 2, 100);
+const light2 = new THREE.PointLight(0xffffff, .5, 100);
+const light3 = new THREE.PointLight(0xffffff, 1, 100);
+const light4 = new THREE.PointLight(0xffffff, .5, 100);
+light.position.set(2, 15, 8);
+light2.position.set(-2,-15,8)
+light3.position.set(2,-15,8)
+light4.position.set(-2,15,8)
 scene.add(light);
+scene.add(light2); scene.add(light4); scene.add(light3);
 
 const dracoLoader = new DRACOLoader();
 const loader = new GLTFLoader();
@@ -88,7 +95,7 @@ camera.position.z = 5;
 function rendeLoop() {
   renderer.render(scene, camera); // Render the scene without the composer
 
-  const currentTimeLine = window.pageYOffset/3000;
+  const currentTimeLine = window.pageYOffset/2000;
   const rx = currentTimeLine * -.2 + .3;
   const ry = (currentTimeLine * .95) * Math.PI * 2;
 
